@@ -1,0 +1,19 @@
+{
+  "name": "polymer-2-webpack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.config.js --open",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.4.1",
+    "html-webpack-plugin": "^2.30.1",
+    "polymer-webpack-loader": "^2.0.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

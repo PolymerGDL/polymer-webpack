@@ -1,0 +1,19 @@
+{
+  "name": "polymer-2-webpack",
+  "description": "",
+  "authors": [
+    "DezkaReid <elmaildeldezkareid@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/PolymerGDL/polymer-webpack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0"
+  }
+}

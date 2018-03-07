@@ -1,0 +1,22 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="app-element">
+  <template>
+    <div>Hello, [[library]]!</div>
+  </template>
+  <script>
+    
+    class AppElement extends Polymer.Element {
+      static get is() { return 'app-element'; }
+      static get properties() {
+        return {
+          library: {
+            type: String,
+            value: 'Polymer'
+          }
+        }
+      }
+    }
+    window.customElements.define(AppElement.is, AppElement);
+  </script>
+</dom-module>
